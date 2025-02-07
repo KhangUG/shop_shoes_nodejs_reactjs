@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "BE_shop-shoes",
+			"problemMatcher": [],
+			"label": "npm: start - BE_shop-shoes",
+			"detail": "nodemon --exec babel-node src/server.js",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
